@@ -1,0 +1,18 @@
+nav div {
+    width: 20vw;
+
+}
+
+nav img {
+    width: 40%;
+}
+
+nav footer {
+    width: 100vw;
+
+}
+
+nav li a:hover {
+
+    transition: 0.3s;
+}

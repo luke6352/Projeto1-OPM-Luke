@@ -1,0 +1,111 @@
+header {
+    background-color: #b1c228ff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#tareco img {
+    max-width: 90%;
+    height: auto;
+    display: inline;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+}
+
+nav a {
+    color: #fa6b41ff;
+
+}
+
+nav div {
+    width: 20vw;
+
+}
+
+nav img {
+    width: 40%;
+    display: flex;
+    justify-content: initial;
+}
+
+nav footer {
+    width: 100vw;
+
+}
+
+nav li a:hover {
+    color: #4e1027ff;
+    transition: 0.3s;
+}
+
+nav li {
+    display: inline-block;
+
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-right: 5px;
+}
+
+main {
+    background-color: #fa6b41ff;
+}
+
+button {
+    margin-left: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+}
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0
+}
+
+footer {
+    background-color: #4e1027ff;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(orientation: portrait) {
+    nav li {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(orientation: portrait) {
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(orientation: portrait) {
+    img {
+        display: flex;
+        justify-content: start;
+        margin: 0%;
+        size: 70%;
+
+    }
+}
+
+@media(orientation: portrait) {
+    nav div {
+        width: 50%;
+        height: auto;
+    }
+}
